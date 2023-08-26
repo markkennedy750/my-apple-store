@@ -1,0 +1,46 @@
+{
+  "name": "apple-store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.16",
+    "@heroicons/react": "^1.0.6",
+    "@portabletext/react": "^3.0.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@sanity/client": "^6.4.5",
+    "@sanity/image-url": "^1.0.2",
+    "@stripe/stripe-js": "^2.0.0",
+    "@types/node": "20.4.8",
+    "@types/react": "18.2.18",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.14",
+    "D": "^1.0.0",
+    "eslint": "8.46.0",
+    "eslint-config-next": "13.4.13",
+    "next": "13.4.13",
+    "next-auth": "^4.10.3",
+    "next-auth-sanity": "^1.5.2",
+    "next-sanity": "^5.2.4",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-redux": "^8.1.2",
+    "react-responsive": "^9.0.2",
+    "stripe": "^12.17.0",
+    "styled-components": "^5.3.11",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/react-currency-formatter": "^1.1.4",
+    "prettier": "^3.0.1",
+    "prettier-plugin-tailwindcss": "^0.4.1"
+  }
+}
